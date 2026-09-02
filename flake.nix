@@ -2,8 +2,8 @@
   description = "A fast, searchable window switcher for the Niri Wayland compositor";
 
   inputs = {
-    niri-seek.url = "github:pyluyten/alttablavistababy";
-    niri-seek.inputs.nixpkgs.follows = "nixpkgs";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-26.05";
+    flake-utils.url = "github:numtide/flake-utils";
   };
 
   outputs = { self, nixpkgs, flake-utils }:
